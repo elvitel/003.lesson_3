@@ -12,4 +12,9 @@ let a = Math.trunc(number % 100000 / 10000);
 console.log(`${a} ${b} ${c} ${d} ${e}`);
 
 
+// еще одно решение п.2
+let num1 = 94027;
+let num2 = Array.from(String(num1));
+console.log(`${num2[0]} ${num2[1]} ${num2[2]} ${num2[3]} ${num2[4]}`);
+
 
